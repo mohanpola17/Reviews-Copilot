@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# Database
+*.db-shm
+*.db-wal
+*.sqlite3
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Node.js
+node_modules/
+
+# React Build
+build/
+
+# Environment variables
+.env
+
+# Testing
+.pytest_cache/
+
