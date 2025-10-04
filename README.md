@@ -19,8 +19,13 @@ A web app for multi-location businesses to manage customer reviews. Built with R
 
 ## Quick Setup
 
+### Option 1: Automated (Recommended)
+```bash
+chmod +x deploy.sh
+./deploy.sh
+```
 
-### Manual Setup
+### Option 2: Manual Setup
 
 **Backend:**
 ```bash
@@ -75,29 +80,35 @@ Tests cover all endpoints including:
 - Search functionality
 - Error handling
 
+### Frontend Tests
+```bash
+cd frontend
+npm test
+```
+
 
 ## How I Deployed
 
-### Backend (Railway)
-1. Connected GitHub repo to Railway
-2. Set environment variables in Railway dashboard:
+### Backend (Render)
+1. Connected GitHub repo to Render
+2. Set environment variables in Render dashboard:
    - `API_KEY`: Generated secure key
    - `DATABASE_URL`: `sqlite:///./reviews.db`
    - `AI_ENABLED`: `true`
-3. Railway automatically detected Python and ran `uvicorn main:app`
+3. Render automatically detected Python and ran `uvicorn main:app`
 
 ### Frontend (Vercel)
 1. Connected GitHub repo to Vercel
 2. Set build command: `npm run build`
 3. Set output directory: `build`
 4. Added environment variables:
-   - `REACT_APP_API_URL`: Backend Railway URL
+   - `REACT_APP_API_URL`: Backend Render URL
    - `REACT_APP_API_KEY`: Same as backend
 
 **Live URLs:**
-- Frontend: [Your Vercel URL]
-- Backend: [Your Railway URL]
-- API Docs: [Your Railway URL]/docs
+- Frontend: [https://reviews-copilot-lovat.vercel.app/](https://reviews-copilot-lovat.vercel.app/)
+- Backend: [https://reviews-copilot-3hhc.onrender.com](https://reviews-copilot-3hhc.onrender.com)
+- API Docs: [https://reviews-copilot-3hhc.onrender.com/docs](https://reviews-copilot-3hhc.onrender.com/docs)
 
 ## Time Spent & Trade-offs
 
