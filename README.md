@@ -106,9 +106,9 @@ npm test
    - `REACT_APP_API_KEY`: Same as backend
 
 **Live URLs:**
-- Frontend: [https://reviews-copilot-lovat.vercel.app/](https://reviews-copilot-lovat.vercel.app/)
-- Backend: [https://reviews-copilot-3hhc.onrender.com](https://reviews-copilot-3hhc.onrender.com)
-- API Docs: [https://reviews-copilot-3hhc.onrender.com/docs](https://reviews-copilot-3hhc.onrender.com/docs)
+- Frontend: [https://reviewscopilot.vercel.app/](https://reviewscopilot.vercel.app/)
+- Backend: [https://reviews-copilot-kws6.onrender.com](https://reviews-copilot-kws6.onrender.com)
+- API Docs: [https://reviews-copilot-kws6.onrender.com/docs](https://reviews-copilot-kws6.onrender.com/docs)
 
 ## Time Spent & Trade-offs
 
